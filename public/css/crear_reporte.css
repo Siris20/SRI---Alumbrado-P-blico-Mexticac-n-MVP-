@@ -1,0 +1,138 @@
+/* === Formulario Nuevo Reporte === */
+.formulario-reporte {
+    background: white;
+    padding: 30px;
+    border-radius: 20px;
+    box-shadow: 0 4px 20px rgba(0,0,0,0.1);
+}
+
+.formulario-reporte h3 {
+    margin: 30px 0 15px;
+    color: #333;
+    font-size: 18px;
+}
+
+.input-descripcion {
+    width: 100%;
+    height: 100px;
+    padding: 15px;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    resize: vertical;
+    font-size: 16px;
+}
+
+.tipo-problema label {
+    display: block;
+    margin: 12px 0;
+    font-size: 16px;
+}
+.evidencia-foto p {
+    margin-bottom: 20px;
+    color: #666;
+    font-size: 16px;
+}
+
+/* Botón único para agregar imagen */
+.btn-agregar-imagen {
+    display: block;
+    width: 100px;
+    height: 100px;
+    margin: 0 auto;
+    border-radius: 50%;
+    background: #f0f0f0; /* fondo inicial gris claro */
+    color: #666;
+    font-size: 36px;
+    cursor: pointer;
+    text-align: center;
+    line-height: 100px;
+    transition: all 0.3s ease;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+}
+
+.btn-agregar-imagen:hover {
+    background: #e0e0e0;
+    transform: scale(1.05);
+}
+
+/* Cuando hay imagen seleccionada → fondo tinto */
+.btn-agregar-imagen.imagen-seleccionada {
+    background: #d32f2f;
+    color: white;
+}
+
+.btn-agregar-imagen.imagen-seleccionada i {
+    font-size: 40px;
+}
+
+#preview-foto {
+    margin-top: 30px;
+    text-align: center;
+    display: none; /* se muestra solo cuando hay imagen */
+}
+
+#img-preview {
+    max-width: 300px;        /* Tamaño máximo deseado (ajusta a lo que quieras: 250px, 350px, etc.) */
+    width: 100%;             /* Hace que sea responsive dentro del max-width */
+    height: auto;            /* Mantiene la proporción */
+    border-radius: 12px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+    border: 3px solid #d32f2f; /* Opcional: borde tinto para resaltar */
+    display: block;
+    margin: 0 auto;          /* Centra la imagen horizontalmente */
+}
+
+.botones-form {
+    text-align: right;
+    margin-top: 40px;
+}
+
+.btn-continuar, .btn-finalizar {
+    background: #d32f2f;
+    color: white;
+    padding: 12px 30px;
+    border: none;
+    border-radius: 8px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.btn-regresar {
+    background: #ccc;
+    color: #333;
+    margin-right: 10px;
+}
+
+.paso-form {
+    display: none;
+}
+
+.paso-form.activo {
+    display: block;
+}
+
+/* Resaltar paso actual en panel izquierdo */
+.pasos .paso.activo {
+    color: #d32f2f;
+    font-weight: bold;
+    position: relative;
+}
+
+.pasos .paso.activo::after {
+    content: '';
+    position: absolute;
+    bottom: -8px;
+    left: 0;
+    width: 100%;
+    height: 3px;
+    background: #d32f2f;
+}
+
+.input-select {
+    width: 100%;
+    padding: 15px;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    font-size: 16px;
+    margin-bottom: 20px;
+}

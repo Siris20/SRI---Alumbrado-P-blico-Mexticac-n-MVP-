@@ -1,0 +1,139 @@
+/* public/css/auth.css */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background: #f7fafc;
+    margin: 0;
+}
+.centrado{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+.auth-container {
+    background: white;
+    padding: 40px;
+    border-radius: 12px;
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 400px;
+}
+
+.auth-tabs {
+    display: flex;
+    margin-bottom: 30px;
+    border-bottom: 1px solid #e2e8f0;
+}
+
+.auth-tabs a {
+    flex: 1;
+    text-align: center;
+    padding: 12px 0;
+    color: #718096;
+    font-weight: 500;
+    text-decoration: none;
+}
+
+.auth-tabs a.active {
+    color: #2d3748;
+    border-bottom: 3px solid #2d3748;
+    font-weight: 600;
+}
+
+.form-group {
+    margin-bottom: 20px;
+    position: relative;
+}
+
+.form-group i {
+    position: absolute;
+    left: 12px;
+    top: 14px;
+    color: #a0aec0;
+    font-size: 18px;
+}
+
+.form-group input {
+    width: 100%;
+    padding: 14px 14px 14px 44px;
+    border: 1px solid #e2e8f0;
+    border-radius: 8px;
+    font-size: 16px;
+    box-sizing: border-box;
+}
+
+.form-group input:focus {
+    outline: none;
+    border-color: #4a5568;
+}
+
+.btn-primary {
+    width: 100%;
+    padding: 14px;
+    background: #2d3748;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    font-size: 16px;
+    font-weight: 600;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+.btn-primary:hover {
+    background: #1a202c;
+}
+
+.divider {
+    text-align: center;
+    margin: 30px 0;
+    color: #718096;
+    position: relative;
+}
+
+.divider::before {
+    content: '';
+    position: absolute;
+    top: 50%;
+    left: 0;
+    right: 0;
+    height: 1px;
+    background: #e2e8f0;
+}
+
+.divider span {
+    background: white;
+    padding: 0 20px;
+}
+
+.btn-google {
+    width: 100%;
+    padding: 14px;
+    background: #4285f4;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    font-size: 16px;
+    font-weight: 500;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 12px;
+}
+
+.btn-google img {
+    width: 20px;
+    height: 20px;
+}
+
+.forgot-password {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.forgot-password a {
+    color: #4285f4;
+    text-decoration: none;
+    font-size: 14px;
+}
