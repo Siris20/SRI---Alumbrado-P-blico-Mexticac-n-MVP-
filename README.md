@@ -21,6 +21,12 @@ Usuarios: Distingue entre ciudadanos y administradores.
 Zonas/Sectores: División geográfica limitada al territorio del municipio de Mexticacán para mejor organización.
 
 Imagenes
+<img width="1868" height="813" alt="image" src="https://github.com/user-attachments/assets/30e73f8a-8a41-46a4-ae59-b17655fd1eab" />
+<img width="1854" height="799" alt="image" src="https://github.com/user-attachments/assets/7dd48926-197d-4e70-8ada-283732fe97e1" />
+<img width="731" height="743" alt="image" src="https://github.com/user-attachments/assets/97a74e99-e8f8-496b-8e83-71f1ad633e05" />
+<img width="815" height="570" alt="image" src="https://github.com/user-attachments/assets/0f25755d-55e0-4455-9f29-9c665f6205f2" />
+<img width="1613" height="666" alt="image" src="https://github.com/user-attachments/assets/cf3b5607-1721-46c5-919a-6b6ed24e2563" />
+<img width="520" height="695" alt="image" src="https://github.com/user-attachments/assets/5cb9ec24-05c8-4395-888a-d4604256a90f" />
 
 
 ✒️ Autor
